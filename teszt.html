@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <title>Számítógép generációk</title>
+  <style>
+    body 
+    {
+      background-image: url('hatterkep.jpg');
+    }
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">        
+        <a class="navbar-brand">Érettségi tétel</a>      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">           
+        <span class="navbar-toggler-icon"></span>        
+        </button>         
+        <div class="collapse navbar-collapse" id="navbarNav">           
+        <ul class="navbar-nav">             
+            <li class="nav-item">               
+                <a class="nav-link" href="index.html">Számítógép generációk</a>             
+            </li>            
+            <li class="nav-item active">              
+                <a class="nav-link " href="teszt.html">Teszt feladat</a>             
+            </li>             <li class="nav-item">               
+                <a class="nav-link " href="forrasok.html">Források</a>             
+            </li>              
+        </li>           
+        </ul>
+        </div>
+        </nav>
+
+      <div class="container">
+        <div id="space"></div>
+        
+        <h1>Középszintű informatika érettségi - Pontozólap</h1>
+        
+        <br>
+          <div class="col-md-5 lap">
+          <form id="pontozo" name="pontozo">
+            <b><p id="szo"> Írásbeli</p></b>
+            <p class="i">Hálózat: 40 pont</p> <input type="text" id="halozati" name="halozati">
+            <p class="i">Programozás: 40 pont</p> <input type="text" id="programozasi" name="programozasi" >
+            <p class="i">Weblap és Adatbázis: 40 pont</p> <input type="text" id="weblapi" name="weblapi">
+            <br><br>
+            <p>Összesen: 120 pont</p>
+            <br><br>
+            <b><p id="ir"> Szóbeli</p></b>
+            <input type="text" id="szobeli" name="szobeli">
+            <br>
+            <br>
+            <p>Összesen: 30 pont</p>
+            <input id="button" type="button" value="Számít" onclick="check()">
+          </form>
+          <br>
+          <br>
+          <b>
+          <p>Elért pontszám:</p>
+          <p id="eredmeny"></p>
+          <p>Érdemjegy:</p>
+          <p id="mennyi"></p>
+          </b>
+          </div>
+      </div>
+    
+    
+    
+      <script src="script.js"></script>
+      
+    
+
+</body>
+</html>
