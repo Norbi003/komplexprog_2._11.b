@@ -1,15 +1,28 @@
-h2 
+body 
 {
-    color: white;
+    background-image: url('hatterkep.jpg');
+    color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+}
+h2
+{
     text-align: center;
+    
 }
-h3
+footer
 {
-   text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  opacity: 0.95;
 }
-body
+h1
 {
-    font-size: 22px;
-    padding: 15px;
-    background-color: antiquewhite;
+    color: red;
 }
